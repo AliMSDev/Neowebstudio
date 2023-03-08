@@ -1,0 +1,19 @@
+.about-main
+{
+    > .home_about {
+        .describeCard
+        {
+            > div 
+            {
+                > div:last-child
+                {
+                    padding: 50px 20px;
+                }
+            }
+            a 
+            {
+                display: none;
+            }
+        }
+    }
+}

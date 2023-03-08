@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+    outline: none;
+    scroll-behavior: smooth;
+}
+html 
+{
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: var(--lightGray);
+}
+a {
+    text-decoration: none;
+}
+p {
+    line-height: 1.5;
+}
+.English {
+    font-family: "Roboto", sans-serif !important;
+}
+.Fa {
+    font-family: "Vazir", sans-serif !important;
+}
+button {
+    border: none;
+}
+.fixbody {
+    overflow: hidden;
+    height: 100vh;
+}
+li
+{
+    list-style-type: none;
+}
+a,button
+{
+    cursor: pointer;
+}
+::selection{
+    background-color: var(--orange);
+    color: var(--white);
+}
+::-webkit-scrollbar
+{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: var(--orange);
+}
+::-webkit-scrollbar-track{
+    background-color: var(--brown);
+}
+h1
+{
+    font-size: 40px;
+}
+h2
+{
+    font-size: 30px;
+}
+h3 
+{
+    font-size: 30px;
+}
+h4
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 20px;
+    text-align: justify;
+}

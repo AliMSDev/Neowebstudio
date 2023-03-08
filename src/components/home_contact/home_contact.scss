@@ -1,0 +1,22 @@
+.homeContact {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    flex-flow: row wrap;
+    background-color: var(--orange);
+    border-top: 3px solid var(--brown);
+    border-bottom: 3px solid var(--brown);
+    height: 200px;
+    h4 {
+        text-align: center;
+        color: var(--white);
+        margin: 0 65px;
+    }
+    > a {
+        margin-top: 0;
+        display: inline-block;
+        margin: 0 65px;
+    }
+}

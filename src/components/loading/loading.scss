@@ -1,0 +1,34 @@
+div.Loading {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    border: 8px solid var(--orange);
+    z-index: 9999999;
+
+    figure {
+        position: relative;
+        text-align: center;
+
+        > img {
+            width: 40%;
+        }
+        > img:first-child
+        {
+            animation: scale 1s ease 0.5s infinite alternate;
+        }
+        > img:last-of-type {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0) rotate(0);
+            animation: rotate 2s linear 0.5s infinite;
+        }
+    }
+}

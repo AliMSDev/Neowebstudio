@@ -1,0 +1,21 @@
+// Grid
+@mixin grid($gridname, $maxmin, $gridnumber) {
+    @media only screen and (#{$maxmin}-width: #{$gridnumber}px) {
+      @for $i from 1 to 13 {
+        .col#{$gridname}#{$i} {
+          width: percentage($i/12);
+          flex-basis: percentage($i/12);
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+  
+  @include grid(xs, max, 576);
+  @include grid(s, min, 576);
+  @include grid(m, min, 768);
+  @include grid(l, min, 992);
+  @include grid(xl, min, 1200);
+  
+  // End Grid

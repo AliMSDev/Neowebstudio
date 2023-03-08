@@ -1,0 +1,18 @@
+.whatDoItems
+{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 40px 30px;
+    > figure 
+    {
+        width: 100px;
+        > img 
+        {
+            width: 100%;
+        }
+    }
+    > h3 {
+        margin: 25px 0;
+    }
+}

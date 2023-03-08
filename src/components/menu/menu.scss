@@ -1,0 +1,84 @@
+.menu {
+    width: 10vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: var(--orange);
+    z-index: 99999;
+    > li {
+        border-top: 1px solid var(--gray);
+        > a {
+            padding: 10px;
+            display: block;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--white);
+        }
+        &:hover {
+            background-color: var(--brown);
+            color: var(--white);
+        }
+        > .beep {
+            display: none;
+        }
+    }
+    > li:last-of-type {
+        border-bottom: 1px solid var(--gray);
+    }
+
+    > .langdiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+
+        .langBtn {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--white);
+            color: var(--brown);
+            border-radius: 50%;
+        }
+        .langBtnTrue
+        {
+            font-family: "Roboto", sans-serif !important;
+        }
+        .langBtnFalse
+        {
+            font-family: 'vazir',sans-serif;
+        }
+    }
+}
+.menu.menuEn
+{
+    left: -15%;
+}
+.menu.trueMenuEn {
+    left: 0;
+}
+
+.menu.menuFa
+{
+    right: -15%;
+}
+.menu.trueMenuFa {
+    right: 0;
+}
+
+.menuLogo {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    > img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}

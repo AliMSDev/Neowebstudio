@@ -1,0 +1,379 @@
+@media only screen and (max-width: 1600px) {
+    h1 {
+        font-size: 35px !important;
+    }
+    .whatDo > div:last-child,
+    .homework > div:last-of-type {
+        width: 100%;
+    }
+    .homeBlogCard
+    {
+        height: 800px;
+    }
+    .showPost > div > div > h1
+    {
+        font-size: 35px !important;
+    }
+
+    .showPost > div > div > div > h2
+    {
+        font-size: 25px !important;
+    }
+    .showPost > div > div > div > h3
+    {
+        font-size: 23px !important;
+    }
+    .showPost > div > div > div > h4
+    {
+        font-size: 18px !important;
+    }
+    .showPost > div > div > div > h5
+    {
+        font-size: 15px !important;
+    }
+    .showPost > div > div > div > h2
+    {
+        font-size: 12px !important;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .whatDo > div:last-child,
+    .homework > div:last-of-type{
+        width: 100%;
+    }
+    .homeBlogCard
+    {
+        height: 930px;
+    }
+    .showPost > div > div > h1
+    {
+        font-size: 30px !important;
+    }
+
+    .showPost > div > div > div > h2
+    {
+        font-size: 27px !important;
+    }
+    .showPost > div > div > div > h3
+    {
+        font-size: 23px !important;
+    }
+    .showPost > div > div > div > h4
+    {
+        font-size: 20px !important;
+    }
+    .showPost > div > div > div > h5
+    {
+        font-size: 18px !important;
+    }
+    .showPost > div > div > div > h2
+    {
+        font-size: 16px !important;
+    }
+    .homework > div:last-of-type > div
+    {
+        height: 650px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .homework > div:last-of-type > div,
+    .homeblog > div:last-of-type > div,
+    .blog-container > div:last-of-type > div,
+    .work-container > div:last-of-type > div {
+        margin: 15px;
+    }
+    h1 {
+        font-size: 25px !important;
+    }
+    h2 {
+        font-size: 20px !important;
+    }
+    h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 15px !important;
+    }
+    p {
+        font-size: 15px !important;
+    }
+    .homeBlogCard
+    {
+        height: 850px;
+    }
+    .showPost > div > div > h1
+    {
+        font-size: 25px !important;
+    }
+
+    .showPost > div > div > div > h2
+    {
+        font-size: 20px !important;
+    }
+    .showPost > div > div > div > h3
+    {
+        font-size: 18px !important;
+    }
+    .showPost > div > div > div > h4
+    {
+        font-size: 16px !important;
+    }
+    .showPost > div > div > div > h5
+    {
+        font-size: 15px !important;
+    }
+    .showPost > div > div > div > h6
+    {
+        font-size: 14px !important;
+    }
+    .seemorebtn,.showWebsite
+    {
+        font-size: 15px;
+    }
+    .homework > div:last-of-type > div
+    {
+        height: 650px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .homework > div:last-of-type > div,
+    .homeblog > div:last-of-type > div,
+    .blog-container > div:last-of-type > div,
+    .work-container > div:last-of-type > div {
+        margin: 15px 180px;
+    }
+    .menu {
+        width: 100vw !important;
+        > li {
+            text-align: center;
+        }
+    }
+    .menuBtnEn {
+        left: 8vw;
+        transform: translate(-50%, 0);
+    }
+    .menuBtnFa {
+        right: 8vw;
+        transform: translate(50%, 0);
+    }
+    .menu.menuEn {
+        left: -100%;
+    }
+    .menu.menuFa {
+        right: -100%;
+    }
+    .menuLogo {
+        margin-top: unset;
+    }
+    .whatDo > div:last-child > div {
+        margin: 30px 90px;
+    }
+    h1 {
+        font-size: 20px !important;
+    }
+    .home_header > figure > img {
+        width: 25%;
+    }
+    .homeContact,.homework,.homeblog
+    {
+        margin-top: 100px;
+    }
+    .whatDo 
+    {
+        margin-top: -200px;
+    }
+    section.home_about{
+        margin-top: 30px;
+    }
+    .homeBlogCard
+    {
+        height: 650px;
+    }
+    .showPost > div
+    {
+        width: 80%;
+    }
+    .showPost > div > div {
+        padding: 20px 20px;
+    }
+    .homework > div:last-of-type > div
+    {
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 800px)
+{
+    .homework > div:last-of-type > div,
+    .homeblog > div:last-of-type > div,
+    .blog-container > div:last-of-type > div,
+    .work-container > div:last-of-type > div {
+        margin: 15px 130px;
+    }
+    .whatDo > div:last-child > div {
+        margin: 30px 70px;
+    }
+    p 
+    {
+        font-size: 17px !important;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .homework > div:last-of-type > div,
+    .homeblog > div:last-of-type > div,
+    .blog-container > div:last-of-type > div,
+    .work-container > div:last-of-type > div {
+        margin: 15px 85px;
+    }
+    .whatDo > div:last-child > div {
+        padding: 0 15px;
+    }
+    .whatDo > div:last-child > div {
+        margin: 30px 70px;
+    }
+    h1 {
+        font-size: 20px !important;
+    }
+    h2 {
+        font-size: 26px !important;
+    }
+    h3 {
+        font-size: 22px !important;
+    }
+    .home_header > figure > img {
+        width: 35%;
+    }
+    .homeBlogCard
+    {
+        height: 600px;
+    }
+    p 
+    {
+        font-size: 16px !important;
+    }
+    .showPost > div > div > h1
+    {
+        font-size: 20px !important;
+    }
+    .homework > div:last-of-type > div
+    {
+        height: 460px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .homework > div:last-of-type > div,
+    .homeblog > div:last-of-type > div,
+    .blog-container > div:last-of-type > div,
+    .work-container > div:last-of-type > div
+     {
+        margin: 15px 40px;
+    }
+    .menuBtnEn {
+        left: 11vw;
+        transform: translate(-50%, 0);
+    }
+    .menuBtnFa {
+        right: 11vw;
+        transform: translate(50%, 0);
+    }
+    .whatDo > div:last-child > div {
+        margin: 30px 30px;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+    .home_header > figure > img {
+        width: 40%;
+    }
+    section.home_about > div:nth-child(3){
+        display: none;
+    }
+    .describeCard{
+        width: 370px;
+    }
+    .homeblog,.homeContact,.homework {
+        margin-top: 100px;
+    }
+    .whatDo,section.home_about > div:nth-child(2)
+    {
+        margin-top: 140px;
+    }
+    section.home_about
+    {
+        margin-top: 30px;
+    }
+    .homeBlogCard
+    {
+        height: 700px;
+    }
+    p 
+    {
+        font-size: 15px !important;
+    }
+    .showPost > div
+    {
+        width: 85%;
+    }
+    .showPost > div > div {
+        padding: 20px 15px;
+    }
+    .seemorebtn,.showWebsite
+    {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    p 
+    {
+        font-size: 14px !important;
+    }
+    .showPost > div
+    {
+        width: 90%;
+    }
+    .showPost > div > div {
+        padding: 20px 15px;
+    }
+    .titleHead > div > div > h2 {
+        padding: 30px 12px;
+    }
+    .describeCard{
+        width: 370px;
+    }
+    .homework > div:last-of-type > div,
+    .homeblog > div:last-of-type > div,
+    .blog-container > div:last-of-type > div,
+    .work-container > div:last-of-type > div {
+        margin: 15px;
+    }
+    .whatDo > div:last-child > div {
+        padding: 0 10px;
+    }
+    .whatDo > div:last-child > div {
+        margin: 30px 15px;
+    }
+    footer {
+        margin-top: 70px;
+    }
+
+    .homeblog > div:last-of-type
+    {
+        margin-top: 70px;
+    }
+    section.home_about
+    {
+        margin-top: 0px;
+    }
+    .whatDo,section.home_about > div:nth-child(2)
+    {
+        margin-top: 140px;
+    }
+    .home_header > figure > img {
+        width: 50%;
+    }
+    .homework > div:last-of-type > div
+    {
+        height: 500px;
+    }
+}

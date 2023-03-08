@@ -1,0 +1,48 @@
+.menuBtn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    border-radius: 50%;
+    background-color: var(--orange);
+    position: fixed;
+    top: 30px;
+    border: 1px solid var(--white);
+    z-index: 999999;
+    > span {
+        background-color: var(--white);
+        width: 25px;
+        height: 2px;
+        margin: 5px 0;
+    }
+}
+.menuBtn.true {
+    > span:nth-child(2) {
+        display: none;
+        transition: none;
+    }
+    > span:first-child {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 7px;
+        left: -0.5px;
+    }
+    > span:last-child {
+        transform: rotate(45deg);
+        position: relative;
+        top: -5px;
+        left: 0px;
+    }
+}
+.menuBtnFa
+{
+    right: 5vw;
+    transform: translate(50%, 0);
+}
+.menuBtnEn
+{
+    left: 5vw;
+    transform: translate(-50%, 0);
+}
